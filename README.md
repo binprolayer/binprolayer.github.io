@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> <!-- Thêm font chữ -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
     <style>
         canvas {
             position: absolute;
@@ -18,33 +18,33 @@
 
         .message {
             position: absolute;
-            color: rgb(240, 239, 239); /* Màu đỏ */
+            color: rgb(240, 239, 239);
             font-size: 3rem;
-            font-family: 'Great Vibes', cursive; /* Phông chữ cách điệu */
+            font-family: 'Great Vibes', cursive;
             text-align: center;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            z-index: 1; /* Đảm bảo dòng chữ nằm trên cùng */
-            opacity: 0; /* Bắt đầu với trạng thái ẩn */
-            animation: fadeIn 3s forwards; /* Hiệu ứng biến ra trong 3 giây */
+            z-index: 1;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
         }
 
         @keyframes fadeIn {
             0% {
                 opacity: 0;
-                transform: translate(-50%, -60%); /* Dịch chuyển nhẹ lúc đầu */
+                transform: translate(-50%, -60%);
             }
             100% {
                 opacity: 1;
-                transform: translate(-50%, -50%); /* Kết thúc ở giữa màn hình */
+                transform: translate(-50%, -50%);
             }
         }
     </style>
 </head>
 <body>
     <canvas id="heart"></canvas>
-    <div class="message">Ngày mai đi nhà nghỉ nhé em</div> <!-- Thêm dòng chữ -->
+    <div class="message">Ngày mai đi nhà nghỉ nhé em</div> 
 
     <script>
         window.requestAnimationFrame =
