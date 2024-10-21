@@ -44,7 +44,6 @@
 </head>
 <body>
     <canvas id="heart"></canvas>
-    <div class="message">Ngày mai đi nhà nghỉ nhé em</div> 
 
     <script>
         window.requestAnimationFrame =
